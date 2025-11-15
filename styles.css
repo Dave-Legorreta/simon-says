@@ -6,14 +6,14 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  3%;
   color: #FEF2BF;
   line-height: 1.2;
 }
 
 .container {
   display: grid;
-  grid-template-rows: 250px 250px 100px;
+  grid-template-rows: 250px 250px auto;
 }
 
 
@@ -37,8 +37,8 @@ button{
   background-color: #FEF2BF;
   border: 10px solid black;
   border-radius: 1px;
-  padding: 3% 5%;
-  margin: 10% 0;
+  padding: 2% 5%;
+  margin: 5% 0;
 }
 
 .game-over {
