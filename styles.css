@@ -70,7 +70,7 @@ button{
 @media screen and (max-width: 600px){
   .container{
     display: grid;
-    grid-template-rows: 40% 40% auto;
+    grid-template-rows: 40% 40% 100px;
     justify-content: center;
   }
 
@@ -82,7 +82,7 @@ button{
     display: flex;
     width: 150px;
     height: 150px;
-    margin: 10px;
+    margin: 5px;
   }
 
   #level-title{
@@ -90,6 +90,7 @@ button{
   }
 
   button{
-    margin: 5% 0;
+    margin: 3% 0;
+    font-size: 3.5rem;
   }
 }
